@@ -95,3 +95,17 @@ NDependOut/*
 #DotCover
 Session/*
 Session.html
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.cache
+[Dd]ebug*/
+obj/
+[Rr]elease*/
+.vs/
+#Nuget packages folder
+packages/
