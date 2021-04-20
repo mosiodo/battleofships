@@ -112,7 +112,7 @@ namespace BattleShips.Application
         }
         public string ErrorMessage { get; }
 
-        public bool Valid => string.IsNullOrEmpty(ErrorMessage) == false;
+        public bool Valid => string.IsNullOrEmpty(ErrorMessage) == true ;
     }
 
     public enum Orientation

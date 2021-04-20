@@ -12,4 +12,30 @@
     <Folder Include="Validation" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="BattleShipsTest\BattleShipTests.cs">
+      <Link>Test\BattleShipTests.cs</Link>
+    </Compile>
+    <Compile Remove="BattleShipsTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="BattleShipsTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="BattleShipsTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="BattleShipsTest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="BattleShipsTest\obj\BattleShipsTest.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="BattleShipsTest\obj\project.assets.json" />
+    <_ContentIncludedByDefault Remove="BattleShipsTest\obj\project.packagespec.json" />
+    <_ContentIncludedByDefault Remove="BattleShipsTest\obj\Test.csproj.nuget.dgspec.json" />
+  </ItemGroup>
+
 </Project>
